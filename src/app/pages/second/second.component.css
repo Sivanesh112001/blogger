@@ -1,0 +1,78 @@
+.post{
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.post {
+    max-width: 404px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.post div {
+    margin-bottom: 15px;
+}
+
+.post label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.post input[type="text"],
+.post textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+.post button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.reset{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .post {
+        margin-left: 600px;
+        padding: 10px;
+    }
+    .post input[type="text"],
+    .post textarea {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .post input[type="text"],
+    .post textarea {
+        font-size: 12px;
+    }
+}
