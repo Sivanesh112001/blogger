@@ -65,6 +65,7 @@
 
 @media only screen and (max-width: 320px) {
     .post {
+        margin-left: 50px;
         padding: 5px;
     }
     .post input[type="text"],

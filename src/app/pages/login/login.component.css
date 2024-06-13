@@ -59,6 +59,7 @@ button:hover {
 
 @media only screen and (max-width: 320px) {
   form {
+    margin-left: 50px;
       padding: 8px;
   }
   .form-control {

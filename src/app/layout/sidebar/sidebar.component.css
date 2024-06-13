@@ -39,7 +39,7 @@ body {
 
 @media screen and (max-width: 320px) {
   .sidebar {
-    width: 102px;
+    width: 50px;
     margin-top: 142px;/* Adjust the width for smaller screens */
   }
   
